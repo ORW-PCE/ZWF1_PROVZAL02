@@ -1,0 +1,271 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:semantic="sap.m.semantic"
+	xmlns:table="sap.ui.table" xmlns:footerbar="sap.ushell.ui.footerbar"
+	controllerName="zwf1.prozal02.controller.Detail">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{parts:['detailView>/editable', 'component>/applicationMode', 'Data>Status', 'Data>FormNumber'], formatter: '.formatter.formatDetailTitle'}"
+		enableScrolling="true" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+		<!--	<ObjectHeader id="objectHeader" title="{Osoba}"/>  -->
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding" select="_onTabSelect">
+				<items>
+					<IconTabFilter id="iconTabBarFilterInfo" icon="sap-icon://hint" tooltip="{i18n>detailIconTabBarInfo}">
+						<Text text="{i18n>paragraphText}" visible="{detailView>/paragraphVisible}" width="100%"/> 
+
+						<f:SimpleForm  title="{i18n>Doklad}" visible="{= !!${Data>FormData/BKPF_BELNR}}" layout="ColumnLayout" columnsL="1" columnsXL="1" columnsM="1">
+							<f:content>
+								<Label text="{i18n>Číslo_dokladu}"/>
+								<Input editable="false" value="{Data>FormData/BKPF_BUKRS}/{Data>FormData/BKPF_BELNR}/{Data>FormData/BKPF_GJAHR}" width="50%"/>
+							</f:content>
+						</f:SimpleForm>
+
+						<f:SimpleForm  id="infoForm" title="{i18n>Financing}" layout="ColumnLayout" columnsL="1" columnsXL="1" columnsM="1">
+							<f:content>
+								<Label text="{i18n>Žadatel}"/>
+								<Input id="idInputZadatelPernr" editable="{detailView>/editable}" value="{Data>FormData/ZADATEL_PERNR}" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">
+									<layoutData>
+										<f:ColumnElementData cellsSmall="2" cellsLarge="2" />
+									</layoutData>								
+								</Input>
+								<Input id="idInputZadatelUname" editable="false" value="{Data>FormData/ZADATEL_UNAME}" >
+									<layoutData>
+										<f:ColumnElementData cellsSmall="2" cellsLarge="2" />
+									</layoutData>								
+								</Input>
+								<Text text="{Data>FormData/ZADATEL_OSOBA}"/>
+								<Label text="{i18n>Číslo_mimořádné_PZ}"/>
+								<Input editable="{detailView>/editable}" value="{Data>FormData/CISLO_PZ}" width="50%" change="onInputValueChanged" submit="onInputValueSubmit"/>							
+
+								<Label text="{i18n>Hodnota_vyplacené_mimořádné_PZ}"/>
+								<Input  																		
+										value="{
+												path:'Data>FormData/HODNOTA_PZ', 
+												type:'sap.ui.model.type.Float',
+												formatOptions: {
+													maxIntegerDigits: 11,
+													maxFractionDigits: 3,
+													minFractionDigits: 2,
+													parseAsString: true,
+													style: 'standard'												
+												}
+											}"
+										textAlign="Right" editable="{detailView>/editable}" change="onInputValueChanged" submit="onInputValueSubmit">	
+									<layoutData>
+										<f:ColumnElementData cellsSmall="2" cellsLarge="3" />
+									</layoutData>											
+								</Input>
+
+								<Input id="idInputWaers" valueLiveUpdate="true" liveChange="onWaersChange" width="50%" value="{Data>FormData/WAERS}" showValueHelp="true" editable="{detailView>/editable}" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+									<layoutData>
+										<f:ColumnElementData cellsSmall="2" cellsLarge="2" />
+									</layoutData>									
+								</Input>
+
+
+								<Label text="{i18n>Výdaje_celkem}"/>
+								<Input  																		
+										value="{
+												parts: [
+													{path:'Data>FormData/VYDAJE'}, 
+													{path:'Data>FormData/WAERS'}
+													],
+												type:'sap.ui.model.type.Currency'
+											}"
+										textAlign="Right" editable="false" width="50%" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+								
+								<Label text="{i18n>Doplatek}"/>
+								<Input  																		
+										value="{
+												parts: [
+													{path:'Data>FormData/DOPLATEK'}, 
+													{path:'Data>FormData/WAERS'}
+													],
+												type:'sap.ui.model.type.Currency'
+											}"
+										textAlign="Right" editable="false" width="50%" visible="{= ${Data>FormData/DOPLATEK} > 0}"/>	
+
+								<Label text="{i18n>Přeplatek}"/>
+								<Input  																		
+										value="{
+												parts: [
+													{path:'Data>FormData/PREPLATEK'}, 
+													{path:'Data>FormData/WAERS'}
+													],
+												type:'sap.ui.model.type.Currency'
+											}"
+										textAlign="Right" editable="false" width="50%" visible="{= ${Data>FormData/PREPLATEK} > 0}"/>	
+
+								<Label text="{i18n>Útvar}"/>
+								<!--
+								<Input id="idInputOrgeh" valueLiveUpdate="true" liveChange="onInfoChanged" value="{Data>FormData/ORGEH}" showValueHelp="true" width="100%" editable="false" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+									<layoutData>
+										<f:ColumnElementData cellsSmall="2" cellsLarge="2" />
+									</layoutData>									
+								</Input>
+								-->
+								<Input id="idInputOrgehShort" valueLiveUpdate="true" liveChange="onInfoChanged" value="{Data>FormData/ORGEH_SHORT}" showValueHelp="true" width="100%" editable="false" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+									<layoutData>
+										<f:ColumnElementData cellsSmall="4" cellsLarge="4" />
+									</layoutData>									
+								</Input>
+
+								<Text text="{Data>FormData/ORGEH_TEXT}"/>	
+								<Label text="{i18n>Pracovní_usek}"/>
+								<Input id="idInputGsber" valueLiveUpdate="true" liveChange="onInfoChanged" value="{Data>FormData/GSBER}" showValueHelp="true" width="100%" editable="false" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+								<Text text="{Data>FormData/GSBER_TEXT}"/>	
+
+								<!--<Label text="{i18n>Parafista}"/>
+								<Input id="idInputParafistaPernr" valueLiveUpdate="true" liveChange="onInfoChanged" value="{Data>FormData/PARAFISTA_PERNR}" showValueHelp="true" width="100%" editable="{detailView>/editable}" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit" class="sapUiMediumMarginBottom" />	
+								<Text text="{Data>FormData/PARAFISTA_OSOBA}"/>	-->
+
+								<Label text="{i18n>Parafista}"/>
+								<Input id="idInputParafistaUname" valueLiveUpdate="true" liveChange="onInfoChanged" value="{Data>FormData/PARAFISTA_UNAME}" showValueHelp="true" width="100%" editable="{detailView>/editable}" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit" class="sapUiMediumMarginBottom" />	
+								<Text text="{Data>FormData/PARAFISTA_OSOBA}"/>							
+																
+								<Label />	
+								<Label text="{i18n>Účet}"/>
+								<Select id="idSelectAccount" width="50%" forceSelection="false" editable="{detailView>/editable}" change="onInputValueChanged" selectedKey="{Data>FormData/STANOVENI_UCTU}" items="{/AccountRuleSet}">	
+									<core:Item key="{Pravidlo}" text="{Popis} - {Hkont}"></core:Item>
+								</Select>
+
+								<Label text="{i18n>Jméno_vlastníka_karty}" visible="{ path:'Data>FormData/STANOVENI_UCTU', formatter: '.formatter.vlastnikKartyVisible'}"/>
+								<Input width="50%" editable="{detailView>/editable}" value="{Data>FormData/KARTA_VLASTNIK}" visible="{ path:'Data>FormData/STANOVENI_UCTU', formatter: '.formatter.vlastnikKartyVisible'}" />																
+
+								<Label text="{i18n>Telefonní_číslo}"/>
+								<Input id="idInputTelnr" editable="{detailView>/editable}" value="{Data>FormData/TELNR}" width="50%" >																
+								</Input>								
+
+
+							</f:content>
+						</f:SimpleForm>
+
+								<Table items="{ path: 'Data>FormData/SUMARIZACE' }" sticky="HeaderToolbar,ColumnHeaders" >
+									<headerToolbar>
+										<OverflowToolbar>
+										<Title text="{i18n>Sumarizace}"/>												
+										</OverflowToolbar>
+									</headerToolbar>
+									
+									<items>
+										<ColumnListItem type="Active" >
+											<cells>												
+												<Text text="{Data>KOSTL}" />
+												<Text text="{Data>PSPNR}"  />
+												<Text text="{Data>AUFNR}" />
+												<ObjectNumber
+														number="{
+															parts:[{path:'Data>WRBTR'},{path:'Data>WAERS'}],
+															type: 'sap.ui.model.type.Currency',
+															formatOptions: {showMeasure: false}
+														}"
+														unit="{Data>WAERS}" />					
+											</cells>
+										</ColumnListItem>
+									</items>
+									<columns>
+										<Column >
+											<header>
+												<Label text="{i18n>NS}"/>
+											</header>			
+										</Column>
+										<Column >
+											<header>
+												<Label text="{i18n>Prvek}"/>
+											</header>			
+										</Column>			
+										<Column >
+											<header>
+												<Label text="{i18n>Zdroj}"/>
+											</header>			
+										</Column>					
+										<Column hAlign="End" >
+											<header>
+												<Label text="{i18n>Cena}"/>
+											</header>			
+										</Column>			
+									</columns>
+								</Table>
+
+						<Label/>
+
+					</IconTabFilter>				
+					
+					<IconTabFilter id="iconTabBarFilterData" icon="sap-icon://list" tooltip="{i18n>detailIconTabBarData}">
+						<content>
+							<core:Fragment fragmentName="zwf1.prozal02.view.DataTableResponsive" type="XML"/>
+						</content>
+					</IconTabFilter>
+
+					<IconTabFilter id="iconTabBarFilterAppr" icon="sap-icon://hr-approval" tooltip="{i18n>detailIconTabBarAppr}"
+						count="{= ${ApproverSet}.length}">
+						<content>
+							<core:Fragment fragmentName="zwf1.prozal02.view.ApproverTable" type="XML"/>
+						</content>
+					</IconTabFilter>
+				
+					<IconTabFilter id="iconTabBarFilterComment" icon="sap-icon://comment" tooltip="{i18n>detailIconTabBarComments}">
+						<content>
+							<core:Fragment fragmentName="zwf1.prozal02.view.CommentsTable" type="XML"/>
+						</content>
+					</IconTabFilter>
+					
+					
+					<IconTabFilter id="iconTabBarFilterAttachments" icon="sap-icon://attachment" tooltip="{i18n>detailIconTabBarAttachments}">
+						<content>
+							<core:Fragment fragmentName="zwf1.prozal02.view.Attachments" type="XML"/>
+						</content>
+					</IconTabFilter>
+					
+				</items>
+			</IconTabBar>
+		
+		</semantic:content>
+
+		<semantic:customFooterContent>
+		
+			<Button id="actionButton_CANCEL_WF" press="onActionCancelWorkflow" type="Reject" icon="sap-icon://stop"></Button>
+			<Button press="onActionEdit" text="{i18n>Upravit}" icon="sap-icon://edit" visible="{detailView>/buttonEditVisible}"></Button>			
+			<Button text="{i18n>Uložit}" press="onActionSave" icon="sap-icon://save" visible="{detailView>/buttonSaveVisible}" type="Emphasized" ></Button>						
+			<Button press="onActionCheck" text="{i18n>Kontrola}" icon="sap-icon://validate" visible="{detailView>/buttonCheckVisible}"></Button>			
+			
+			<!--
+			<Button text="{i18n>Odeslat_ke_schválení}" press="onActionStartWorkflow" visible="{detailView>/buttonStartWFVisible}" type="Accept" icon="sap-icon://begin"></Button>
+			-->
+		<!--	<Button text="{i18n>Vrátit_žadateli}" press="onActionReject" visible="{detailView>/buttonRestartVisible}"/>  -->
+
+			<Button id="actionButton_START_WF" press="onActionStartWorkflow" type="Accept" icon="sap-icon://begin"></Button>
+			<Button id="actionButton_RETURN_ZADATEL" press="onAction_RETURN_ZADATEL" type="Emphasized" icon="sap-icon://media-rewind"></Button>
+			<Button id="actionButton_TO_APPROVE" press="onActionApprove" type="Accept" icon="sap-icon://begin"></Button>
+			<Button id="actionButton_RETURN_ONESTEP" press="onAction_RETURN_ONESTEP" type="Emphasized" icon="sap-icon://media-rewind"></Button>
+			<Button id="actionButton_APPROVE" press="onActionApprove" type="Accept" icon="sap-icon://accept"></Button>
+			<Button id="actionButton_REJECT" press="onActionReject" type="Reject" icon="sap-icon://decline"></Button>
+
+		</semantic:customFooterContent>
+
+<!--
+		<semantic:mainAction>
+			<semantic:MainAction text="{i18n>Odeslat_ke_schválení}" press="onActionStartWorkflow" visible="{detailView>/buttonStartWFVisible}"></semantic:MainAction>
+		</semantic:mainAction>
+		<semantic:saveAction>
+			<semantic:SaveAction press="onActionSave" enabled="{detailView>/buttonSaveEnabled}" visible="{detailView>/buttonSaveVisible}"></semantic:SaveAction>
+		</semantic:saveAction>
+		-->
+
+		<!--
+		<semantic:positiveAction>
+			<semantic:PositiveAction text="{i18n>btnApprove}" press="onActionApprove" visible="{detailView>/buttonApproveVisible}"/>
+		</semantic:positiveAction>
+		<semantic:negativeAction>
+			<semantic:NegativeAction text="{i18n>btnReject}" press="onActionReject" visible="{detailView>/buttonDenyVisible}"/>
+		</semantic:negativeAction>		
+		-->
+
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>
+		</semantic:sendEmailAction>
+		<semantic:shareInJamAction>
+			<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press="onShareInJamPress"/>
+		</semantic:shareInJamAction>
+		<semantic:saveAsTileAction>
+			<footerbar:AddBookmarkButton id="shareTile" title="{detailView>/saveAsTileTitle}"/>
+		</semantic:saveAsTileAction>
+	</semantic:DetailPage>
+</mvc:View>

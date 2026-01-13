@@ -1,0 +1,95 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table">
+	<Panel headerText="{i18n>detailIconTabBarData}">
+	<table:Table rows="{ path: 'DataSet' }" columnHeaderVisible="false" enableColumnFreeze="true" selectionMode="None" alternateRowColors="false"
+		enableColumnReordering="false" fixedRowCount="0" visibleRowCountMode="Fixed" visibleRowCount="{= ${DataSet}.length}" fixedColumnCount="1"
+		class="sapUiNoMargin">
+		<table:columns>
+			<table:Column width="10rem">
+				<table:template>
+					<Text text="{Popis}"  />
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data01}" visible="{Data01X}" class="redColorMText"/>
+						<Text text="{Data01}" visible="{= ${Data01X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data02}" visible="{Data02X}" class="redColorMText"/>
+						<Text text="{Data02}" visible="{= ${Data02X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data03}" visible="{Data03X}" class="redColorMText"/>
+						<Text text="{Data03}" visible="{= ${Data03X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data04}" visible="{Data04X}" class="redColorMText"/>
+						<Text text="{Data04}" visible="{= ${Data04X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data05}" visible="{Data05X}" class="redColorMText"/>
+						<Text text="{Data05}" visible="{= ${Data05X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data06}" visible="{Data06X}" class="redColorMText"/>
+						<Text text="{Data06}" visible="{= ${Data06X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data07}" visible="{Data07X}" class="redColorMText"/>
+						<Text text="{Data07}" visible="{= ${Data07X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data08}" visible="{Data08X}" class="redColorMText"/>
+						<Text text="{Data08}" visible="{= ${Data08X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data09}" visible="{Data09X}" class="redColorMText"/>
+						<Text text="{Data09}" visible="{= ${Data09X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+			<table:Column width="6rem">
+				<table:template>
+					<VBox>
+						<Text text="{Data10}" visible="{Data10X}" class="redColorMText"/>
+						<Text text="{Data10}" visible="{= ${Data10X}===false}"/>
+					</VBox>
+				</table:template>
+			</table:Column>
+		</table:columns>
+	</table:Table>
+	</Panel>
+</core:FragmentDefinition>

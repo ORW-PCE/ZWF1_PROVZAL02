@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form">
+
+        <Dialog id="DialogEdit" resizable="false" draggable="false" >
+        <content>
+            <form:SimpleForm
+                layout="ResponsiveGridLayout"
+                editable="true"
+                adjustLabelSpan="false"
+                labelSpanXL="3"
+                labelSpanL="5"
+                labelSpanM="3"
+                labelSpanS="5">
+                    <Label text="{i18n>Os_č}"/>
+                    <Input value = "{editDialog>/PERNR}" id="PersonID" showValueHelp="true" valueHelpRequest="onInputValueHelpRequestDialog"/>
+
+                    <Label text="{i18n>Osoba}"/>
+                    <Input value="{editDialog>/PERSON}" id="Osoba" editable="false"/>
+
+                    <Label text="{i18n>Č_org_NS}"/>
+                    <Input value="{editDialog>/KOSTL}" id="Organizacia" editable="false"/> 
+
+                    <Label text="{i18n>Zdůvodnění}"/>
+                    <Input value="{editDialog>/REASON}" id="Duvod"/>
+
+                    <Label text="{i18n>Částka}"/>
+                    <Input value="{parts: [{path:'editDialog>/WRBTR'}, {path:'editDialog>/WAERS'}], type:'sap.ui.model.type.Currency'}" id="Betrw" textAlign="End"/>
+                
+                </form:SimpleForm>
+            </content>
+                <beginButton>
+                    <Button text="{i18n>Potvrdit}" type="Accept" press="onSaveEdits"/>
+                </beginButton>
+                <endButton>
+                    <Button text="{i18n>Zavrit}" type="Reject" press="onCloseEditDialog"/>
+                </endButton>
+            
+        
+        </Dialog>
+   
+</core:FragmentDefinition>

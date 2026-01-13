@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Table noDataText="{i18n>masterListNoDataText}" id="tableComment" items="{Data>CommentSet}">
+		<headerToolbar>
+			<OverflowToolbar>
+				<Title text="{i18n>detailIconTabBarComments}" level="H2"/>
+			</OverflowToolbar>
+		</headerToolbar>
+		<items>
+			<ColumnListItem type="Active" id="tableCommentItem">
+				<cells>
+					<Text text="{Data>Person}"/>
+					<Text text="{ path: 'Data>CrDate', type: 'sap.ui.model.type.Date', formatOptions: { style: 'short', pattern: 'dd.MM.yyyy' } }"/>
+					<Text text="{ path: 'Data>CrTime', type: 'sap.ui.model.odata.type.Time', formatOptions: { pattern: 'HH:mm:ss' } }"/>
+					<Text text="{Data>Text}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+		<columns>
+			<Column width="10rem">
+				<header>
+					<Label text="{i18n>Osoba}"/>
+				</header>
+			</Column>
+			<Column width="6rem">
+				<header>
+					<Label text="{i18n>Datum}"/>
+				</header>
+			</Column>
+			<Column width="6rem">
+				<header>
+					<Label text="{i18n>Cas}"/>
+				</header>
+			</Column>
+			<Column>
+				<header>
+					<Label text="{i18n>CommentText}"/>
+				</header>
+			</Column>
+		</columns>
+	</Table>
+</core:FragmentDefinition>

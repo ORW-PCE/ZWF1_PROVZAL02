@@ -1,0 +1,14 @@
+[
+    {
+        "__metadata" : {
+          "id" : "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/AttachmentSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',CrUser='CERESNA',CrDate=datetime'2022-08-23T00%3A00%3A00',CrTime=time'PT15H47M44S')",
+          "uri" : "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/AttachmentSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',CrUser='CERESNA',CrDate=datetime'2022-08-23T00%3A00%3A00',CrTime=time'PT15H47M44S')",
+          "type" : "ZWF1_FORM_APPROVE_SRV.Attachment"
+        },
+        "FormGuid" : "005056af-2584-1eed-88dd-3270db90f8c9",
+        "CrUser" : "CERESNA",
+        "CrDate" : "\/Date(1661212800000)\/",
+        "CrTime" : "PT15H47M44S",
+        "Title" : "Mimoradne odmeny.pdf"
+      }    
+]

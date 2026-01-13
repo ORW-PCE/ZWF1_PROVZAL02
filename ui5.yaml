@@ -1,0 +1,35 @@
+specVersion: "2.4"
+metadata:
+  name: zwf1.prozal02
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        ignoreCertError: false
+        backend:
+          - path: /sap/opu/odata/sap
+            destination: vsb_zschval_proj_odata
+            url: http://sfd.vsb.cz:8000
+            __url: http://sft.vsb.cz:8000
+            _url: http://sfp.vsb.cz:8000            
+            client: "001"
+            pathPrefix: /sap/opu/odata/sap                        
+        ui5:
+          path:
+            - /resources
+            - /test-resources
+          url: https://ui5.sap.com/1.71.69
+          version: ""
+    - name: fiori-tools-appreload
+      afterMiddleware: compression
+      configuration:
+        port: 35729
+        path: webapp
+        delay: 300
+    - name: fiori-tools-preview
+      afterMiddleware: fiori-tools-appreload
+      configuration:
+        component: zwf1.prozal02
+        ui5Theme: sap_fiori_3

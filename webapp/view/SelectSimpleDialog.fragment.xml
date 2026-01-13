@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		id="idSelectSimpleDialog"
+		title="{/title}"
+		liveChange=".onSearch"
+		confirm=".onClose"
+		cancel=".onClose"
+		multiSelect="true"
+		items="{
+			path: '/items'
+		}">
+		<StandardListItem
+			selected="{selected}"
+			title="{title}"
+			description="{description}"
+			type="Active" />
+	</SelectDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,42 @@
+specVersion: "2.4"
+metadata:
+  name: zwf1.prozal02
+type: application
+framework:
+  name: SAPUI5
+  version: 1.104.2
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m
+    - name: sap.ushell
+    - name: sap.collaboration
+    - name: sap.ui.layout
+    - name: sap.f
+    - name: sap.ui.comp
+    - name: sap.ui.generic.app
+    - name: sap.ui.table
+    - name: themelib_sap_bluecrystal
+    - name: themelib_sap_fiori_3
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        ignoreCertError: false
+        backend:
+          - path: /sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV
+            destination: vsb_zschval_proj_odata
+            url: http://192.168.3.33:8000
+            client: "800"
+            pathPrefix: /
+    - name: fiori-tools-appreload
+      afterMiddleware: compression
+      configuration:
+        port: 35729
+        path: webapp
+        delay: 300
+    - name: fiori-tools-preview
+      afterMiddleware: fiori-tools-appreload
+      configuration:
+        component: zwf1.prozal02
+        ui5Theme: sap_fiori_3

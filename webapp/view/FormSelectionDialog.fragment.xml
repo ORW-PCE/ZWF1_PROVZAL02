@@ -1,0 +1,53 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
+	xmlns:core="sap.ui.core">
+
+	<Dialog resizable="true" showHeader="true" title="{i18n>Hledání_formuláře}">			
+			<VBox class="sapUiSmallMargin">
+				<Label text="{i18n>Období_sledování_podle_založení_žádosti}"/>
+				<DatePicker 												
+					dateValue="{masterView>/filters/DATE_FROM}" 
+					displayFormat="dd.MM.yyyy"
+					editable="true"/>	
+				<DatePicker 												
+					dateValue="{masterView>/filters/DATE_TO}" 
+					displayFormat="dd.MM.yyyy"
+					editable="true"/>	
+
+				<Label text="{i18n>Zdroj}" class="sapUiSmallMarginTop"/>
+				<Input valueLiveUpdate="true" liveChange="onInputValueLiveChange" id="idInputAufnr" value="{masterView>/filters/AUFNR}" showValueHelp="true" width="100%" editable="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>NS}"/>
+				<Input valueLiveUpdate="true" liveChange="onInputValueLiveChange" id="idInputKostl" value="{masterView>/filters/KOSTL}" showValueHelp="true" width="100%" editable="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>Prvek}"/>
+				<Input valueLiveUpdate="true" liveChange="onInputValueLiveChange" id="idInputPspnr" value="{masterView>/filters/PSPNR}" showValueHelp="true" width="100%" editable="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+<!--
+				<Label text="{i18n>Příjemce}"/>
+				<Input valueLiveUpdate="true" liveChange="onInputValueLiveChange" id="idInputVyplatitPernr" value="{masterView>/filters/VYPLATIT_PERNR}" showValueHelp="true" width="100%" editable="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>																
+-->
+				<Label text="{i18n>Příjemce}"/>
+				<Input valueLiveUpdate="true" liveChange="onInputValueLiveChange" id="idInputVyplatitUname" value="{masterView>/filters/VYPLATIT_UNAME}" showValueHelp="true" width="100%" editable="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>																
+
+				<Label text="{i18n>Číslo_žádosti}" class="sapUiSmallMarginTop"/>
+				<Input value="{masterView>/filters/FORM_NUMBER}" width="100%" editable="true"/>	
+
+				<Label text="{i18n>Stav_zpracování}" />
+				<MultiComboBox items="{masterView>/filters/STATUS_LIST}" width="100%" selectionFinish="onStatusSelectionFinish">	
+					<core:Item key="{masterView>key}" text="{masterView>description}" />
+				</MultiComboBox>
+
+				<RadioButtonGroup columns="3">
+					<RadioButton text="{i18n>Mnou_založeno}" selected="{masterView>/filters/MY_REQUESTS}"></RadioButton>
+					<RadioButton text="{i18n>Mnou_schvalováno}" selected="{masterView>/filters/MY_APPROVALS}"></RadioButton>
+					<RadioButton text="{i18n>Všechny_formuláře}" selected="{masterView>/filters/ALL_REQUESTS}" enabled="{path: 'masterView>/userRoles', formatter: '.formatter.allFormsEnabled'}"></RadioButton>
+				</RadioButtonGroup>
+
+			</VBox>
+
+		<buttons >
+			<Button text="{i18n>Hledat}" type="Accept" press=".onStartSearch" />
+			<Button text="{i18n>Zrušit}" type="Reject" press=".onCloseDialog" />
+		</buttons>
+	</Dialog>
+
+</core:FragmentDefinition>

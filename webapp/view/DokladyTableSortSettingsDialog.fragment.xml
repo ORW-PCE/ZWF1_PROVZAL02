@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="onDokladyTableSortDialogConfirm">
+		<sortItems>
+            <ViewSettingsItem text="{i18n>(nic)}" key="" selected="true" />
+			<ViewSettingsItem text="{i18n>Datum}" key="DATUM/value"  />
+			<ViewSettingsItem text="{i18n>Číslo_dokladu}" key="CISLO_DOKLADU" />
+			<ViewSettingsItem text="{i18n>Částka}" key="WRBTR" />
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

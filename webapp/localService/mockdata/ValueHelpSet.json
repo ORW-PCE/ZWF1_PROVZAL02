@@ -1,0 +1,1497 @@
+[
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000010')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000010')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000010",
+    "Title": "00000010",
+    "Description": "Bond James",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000030')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000030')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000030",
+    "Title": "00000030",
+    "Description": "Pinak Andrej",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000045')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000045')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000045",
+    "Title": "00000045",
+    "Description": "Chovan Radoslav",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000069')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000069')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000069",
+    "Title": "00000069",
+    "Description": "Holder Horatio",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000070')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000070')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000070",
+    "Title": "00000070",
+    "Description": "Broughton Beryl",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000071')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000071')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000071",
+    "Title": "00000071",
+    "Description": "Hill Harry",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000072')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000072')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000072",
+    "Title": "00000072",
+    "Description": "Fish Freda",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000073')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00000073')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00000073",
+    "Title": "00000073",
+    "Description": "Mustard Colman",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001000')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001000')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001000",
+    "Title": "00001000",
+    "Description": "Müller Anja",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001001')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001001')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001001",
+    "Title": "00001001",
+    "Description": "Maier Michaela",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001002')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001002')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001002",
+    "Title": "00001002",
+    "Description": "Zaucker Ulrike",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001003')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001003')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001003",
+    "Title": "00001003",
+    "Description": "Pfändili Stefan",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001004')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001004')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001004",
+    "Title": "00001004",
+    "Description": "Paulsen Olaf",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001005')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001005')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001005",
+    "Title": "00001005",
+    "Description": "Gutjahr Hanno",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001006')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001006')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001006",
+    "Title": "00001006",
+    "Description": "Awad Jasmin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001007')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001007')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001007",
+    "Title": "00001007",
+    "Description": "Ulrich Hanna",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001008')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001008')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001008",
+    "Title": "00001008",
+    "Description": "Müller Hilde",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001009')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001009')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001009",
+    "Title": "00001009",
+    "Description": "Braunstein Herbert",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001010')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001010')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001010",
+    "Title": "00001010",
+    "Description": "Schmidtrohr Frank",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001011')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001011')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001011",
+    "Title": "00001011",
+    "Description": "Förster Claudia",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001012')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001012')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001012",
+    "Title": "00001012",
+    "Description": "Grundig Sabine",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001013')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001013')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001013",
+    "Title": "00001013",
+    "Description": "Humboldt Wolfgang",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001014')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001014')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001014",
+    "Title": "00001014",
+    "Description": "Hintze Gudrun",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001015')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001015')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001015",
+    "Title": "00001015",
+    "Description": "Rickes Alexander",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001016')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001016')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001016",
+    "Title": "00001016",
+    "Description": "Kaufman Mike",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001017')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001017')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001017",
+    "Title": "00001017",
+    "Description": "Sturm Annette",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001018')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001018')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001018",
+    "Title": "00001018",
+    "Description": "Fischer Bill",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001019')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001019')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001019",
+    "Title": "00001019",
+    "Description": "Thomson Keith",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001020')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001020')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001020",
+    "Title": "00001020",
+    "Description": "Müller-Hinze Beate",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001021')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001021')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001021",
+    "Title": "00001021",
+    "Description": "Stadler Werner",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001022')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001022')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001022",
+    "Title": "00001022",
+    "Description": "Hochlehnert Bruno",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001023')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001023')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001023",
+    "Title": "00001023",
+    "Description": "Hörter Nicole",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001024')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001024')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001024",
+    "Title": "00001024",
+    "Description": "Bauer Frank",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001025')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001025')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001025",
+    "Title": "00001025",
+    "Description": "Rottenbaum Christine",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001026')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001026')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001026",
+    "Title": "00001026",
+    "Description": "Browning Johanna",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001027')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001027')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001027",
+    "Title": "00001027",
+    "Description": "Jost Martin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001028')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001028')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001028",
+    "Title": "00001028",
+    "Description": "Klocke Matthias",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001029')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001029')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001029",
+    "Title": "00001029",
+    "Description": "Kubat Jan",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001030')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001030')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001030",
+    "Title": "00001030",
+    "Description": "Sachsen Arnim",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001031')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001031')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001031",
+    "Title": "00001031",
+    "Description": "Berger Maria",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001032')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001032')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001032",
+    "Title": "00001032",
+    "Description": "Beck Martin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001033')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001033')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001033",
+    "Title": "00001033",
+    "Description": "Bayerle Michaela",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001034')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001034')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001034",
+    "Title": "00001034",
+    "Description": "Schiffer Lydia",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001035')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001035')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001035",
+    "Title": "00001035",
+    "Description": "Schröder Barbara",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001036')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001036')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001036",
+    "Title": "00001036",
+    "Description": "Ludewig Walburga",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001037')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001037')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001037",
+    "Title": "00001037",
+    "Description": "Anselm Karin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001038')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001038')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001038",
+    "Title": "00001038",
+    "Description": "Loewe Lothar",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001039')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001039')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001039",
+    "Title": "00001039",
+    "Description": "Messner Reinhold",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001040')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001040')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001040",
+    "Title": "00001040",
+    "Description": "Bäumler Helga",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001041')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001041')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001041",
+    "Title": "00001041",
+    "Description": "Metzger Gerhard",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001042')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001042')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001042",
+    "Title": "00001042",
+    "Description": "Scholl Jürgen",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001043')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001043')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001043",
+    "Title": "00001043",
+    "Description": "Twin Max",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001044')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001044')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001044",
+    "Title": "00001044",
+    "Description": "Grün Carola",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001045')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001045')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001045",
+    "Title": "00001045",
+    "Description": "Barthe Oliver",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001046')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001046')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001046",
+    "Title": "00001046",
+    "Description": "Elsner Hannelore",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001047')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001047')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001047",
+    "Title": "00001047",
+    "Description": "Fischer Klaus",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001048')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001048')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001048",
+    "Title": "00001048",
+    "Description": "Heilig Bertha",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001049')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001049')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001049",
+    "Title": "00001049",
+    "Description": "Sammer Jürgen",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001050')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001050')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001050",
+    "Title": "00001050",
+    "Description": "Klinsmann Martina",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001051')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001051')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001051",
+    "Title": "00001051",
+    "Description": "Fischer Barbara",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001052')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001052')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001052",
+    "Title": "00001052",
+    "Description": "Mannheim Manfred",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001059')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001059')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001059",
+    "Title": "00001059",
+    "Description": "Workspace Demo user",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001060')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001060')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001060",
+    "Title": "00001060",
+    "Description": "test test",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001099')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001099')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001099",
+    "Title": "00001099",
+    "Description": "Miller Judy",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001100')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001100')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001100",
+    "Title": "00001100",
+    "Description": "Martens Dieter",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001110')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001110')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001110",
+    "Title": "00001110",
+    "Description": "Kernen Norbert",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001120')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001120')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001120",
+    "Title": "00001120",
+    "Description": "Jeckel Jürgen",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001150')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001150')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001150",
+    "Title": "00001150",
+    "Description": "Wissing Carola",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001151')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001151')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001151",
+    "Title": "00001151",
+    "Description": "Wode Christa",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001152')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001152')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001152",
+    "Title": "00001152",
+    "Description": "Breuer Anja",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001153')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001153')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001153",
+    "Title": "00001153",
+    "Description": "Stahle Franziska",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001154')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001154')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001154",
+    "Title": "00001154",
+    "Description": "Vogt Martin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001155')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001155')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001155",
+    "Title": "00001155",
+    "Description": "Hausmann Edwin",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001156')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001156')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001156",
+    "Title": "00001156",
+    "Description": "Leube Johann",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001157')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001157')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001157",
+    "Title": "00001157",
+    "Description": "Habermas Gerlinde",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001158')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001158')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001158",
+    "Title": "00001158",
+    "Description": "Lubich Doris",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001159')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001159')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001159",
+    "Title": "00001159",
+    "Description": "Born Claudia",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001160')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001160')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001160",
+    "Title": "00001160",
+    "Description": "Zurrek Harald",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001161')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001161')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001161",
+    "Title": "00001161",
+    "Description": "Arlt Horst",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001162')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001162')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001162",
+    "Title": "00001162",
+    "Description": "Grass Christoph",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001200')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001200')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001200",
+    "Title": "00001200",
+    "Description": "Hess Alexander",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001201')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001201')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001201",
+    "Title": "00001201",
+    "Description": "Nitzsche Alexander",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001202')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001202')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001202",
+    "Title": "00001202",
+    "Description": "Eisenbarth Rudolf",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001203')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001203')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001203",
+    "Title": "00001203",
+    "Description": "Wiesel Theresa",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001204')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001204')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001204",
+    "Title": "00001204",
+    "Description": "Falkenberg Thomas",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001205')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001205')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001205",
+    "Title": "00001205",
+    "Description": "Schwarz Hubert",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001206')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001206')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001206",
+    "Title": "00001206",
+    "Description": "Schulz Sebastian",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001207')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001207')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001207",
+    "Title": "00001207",
+    "Description": "Lachemann Werner",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001208')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001208')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001208",
+    "Title": "00001208",
+    "Description": "Hintz Michael",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001209')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001209')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001209",
+    "Title": "00001209",
+    "Description": "Schmitdke Wilfried",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001210')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001210')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001210",
+    "Title": "00001210",
+    "Description": "Bauer Peter",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001211')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001211')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001211",
+    "Title": "00001211",
+    "Description": "Stürmer Fritz",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001212')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001212')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001212",
+    "Title": "00001212",
+    "Description": "Heck Dieter",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001213')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001213')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001213",
+    "Title": "00001213",
+    "Description": "Dörffler Hildegard",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001214')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001214')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001214",
+    "Title": "00001214",
+    "Description": "Huber Stefan",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001215')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001215')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001215",
+    "Title": "00001215",
+    "Description": "Drechsel Heidi",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001216')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001216')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001216",
+    "Title": "00001216",
+    "Description": "Riegel Franz",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001217')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001217')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001217",
+    "Title": "00001217",
+    "Description": "Öding Herbert",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001218')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001218')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001218",
+    "Title": "00001218",
+    "Description": "Schmidt Max",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001219')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='PERNR',Value='00001219')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "PERNR",
+    "Value": "00001219",
+    "Title": "00001219",
+    "Description": "Degen Otto",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_001')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_001')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "FAIN_001",
+    "Title": "FAIN_001",
+    "Description": "Nakl. stredisko FAIN 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_002')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_002')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "FAIN_002",
+    "Title": "FAIN_002",
+    "Description": "Nakl. stredisko FAIN 002",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_003')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='FAIN_003')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "FAIN_003",
+    "Title": "FAIN_003",
+    "Description": "Nakl. stredisko FAIN 003",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO001')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO001')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO001",
+    "Title": "KO001",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO123456')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO123456')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO123456",
+    "Title": "KO123456",
+    "Description": "KO 123456",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31216')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31216')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO31216",
+    "Title": "KO31216",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31316')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31316')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO31316",
+    "Title": "KO31316",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO-E01')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO-E01')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO-E01",
+    "Title": "KO-E01",
+    "Description": "Popis E01",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO001')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO001')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO001",
+    "Title": "KO001",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO22222222')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO22222222')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO22222222",
+    "Title": "KO22222222",
+    "Description": "Popis 222-222",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO22222223')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO22222223')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO22222223",
+    "Title": "KO22222223",
+    "Description": "Popis 222-223",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31115')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31115')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO31115",
+    "Title": "KO31115",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31216')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31216')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO31216",
+    "Title": "KO31216",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31316')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='KO31316')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "KO31316",
+    "Title": "KO31316",
+    "Description": "Popis 001",
+    "Param1": "",
+    "Param2": ""
+  },
+  {
+    "__metadata": {
+      "id": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='0000001000')",
+      "uri": "http://v-we7.oriwin.local:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/ValueHelpSet(HelpId='KOSTL',Value='0000001000')",
+      "type": "ZWF1_FORM_APPROVE_SRV.ValueHelp"
+    },
+    "HelpId": "KOSTL",
+    "Value": "0000001000",
+    "Title": "0000001000",
+    "Description": "NS 1000",
+    "Param1": "",
+    "Param2": ""
+  }
+]

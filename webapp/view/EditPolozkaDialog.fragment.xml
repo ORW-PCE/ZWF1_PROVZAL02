@@ -1,0 +1,120 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
+	xmlns:core="sap.ui.core">
+
+	<Dialog resizable="true" showHeader="true" title="{i18n>Položka}" contentWidth="60%">		
+
+		<f:SimpleForm width="100%" id="infoForm" title="{i18n>Financing}" layout="ColumnLayout" columnsL="1" columnsXL="1" columnsM="1" labelSpanXL="2" labelSpanL="2">
+			<f:content>
+				<Label text="{i18n>Položka}"/>
+				<Input id="idInputPolozkaText" value="{polozkaEdit>/data/MATNR}" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="6" cellsLarge="4" />
+					</layoutData>				
+				</Input>
+				<Text text="{polozkaEdit>/data/POLOZKA_TEXT}">					
+				</Text>				
+
+				<Label text="{i18n>Prvek}"/>
+				<Input id="idInputPspnr" value="{polozkaEdit>/data/PSPNR}" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="6" cellsLarge="4" />
+					</layoutData>					
+				</Input>
+				<Text text="{polozkaEdit>/data/PSP_TEXT}">					
+				</Text>				
+
+				<Label text="{i18n>NS}"/>
+				<Input id="idInputKostl" value="{polozkaEdit>/data/KOSTL}" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="6" cellsLarge="4" />
+					</layoutData>					
+				</Input>
+				<Text text="{polozkaEdit>/data/KOSTL_TEXT}">					
+				</Text>				
+
+				<Label text="{i18n>Zdroj}"/>
+				<Input id="idInputAufnr" value="{polozkaEdit>/data/AUFNR}" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="6" cellsLarge="4" />
+					</layoutData>					
+				</Input>
+				<Text text="{polozkaEdit>/data/AUFNR_TEXT}">				
+				</Text>
+
+				<Label text="{i18n>Částka}"/>
+				<Input  																		
+					value="{
+						path:'polozkaEdit>/data/WRBTR', 
+						type:'sap.ui.model.type.Float',
+						formatOptions: {
+							maxIntegerDigits: 11,
+							maxFractionDigits: 3,
+							minFractionDigits: 2,
+							parseAsString: true,
+							style: 'standard'												
+						}
+					}"
+					textAlign="Right" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="4" cellsLarge="2" />
+					</layoutData>						
+				</Input>
+
+				<Input id="idInputWaers" value="{polozkaEdit>/data/WAERS}" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit">	
+					<layoutData>
+						<f:ColumnElementData cellsSmall="2" cellsLarge="2" />
+					</layoutData>					
+				</Input>
+
+				<Label text="{i18n>Text}" />
+				<TextArea value="{polozkaEdit>/data/TEXT_POLOZKY}" maxLength="50" rows="3" class="sapUiMediumMarginBottom"  >
+					<layoutData>
+						<f:ColumnElementData cellsSmall="6" cellsLarge="4" />
+					</layoutData>					
+				</TextArea>
+
+
+
+			</f:content>
+		</f:SimpleForm>
+	<!--	
+			<VBox class="sapUiSmallMargin">
+				<Label text="{i18n>Položka}"/>
+				<Input id="idInputPolozkaText" width="50%" value="{polozkaEdit>/data/MATNR}" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+				<Text text="{polozkaEdit>/data/POLOZKA_TEXT}" class="sapUiMediumMarginBottom"/>	
+
+				<Label text="{i18n>Prvek}"/>
+				<Input id="idInputPspnr" width="50%" value="{polozkaEdit>/data/PSPNR}" class="sapUiMediumMarginBottom" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>NS}"/>
+				<Input id="idInputKostl" width="50%" value="{polozkaEdit>/data/KOSTL}" class="sapUiMediumMarginBottom" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>Zdroj}"/>
+				<Input id="idInputAufnr" width="50%" value="{polozkaEdit>/data/AUFNR}" class="sapUiMediumMarginBottom" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>Částka}"/>
+				<Input  																		
+					value="{
+						path:'polozkaEdit>/data/WRBTR', 
+						type:'sap.ui.model.type.Float',
+						formatOptions: {
+							maxIntegerDigits: 11,
+							maxFractionDigits: 3,
+							minFractionDigits: 2,
+							parseAsString: true,
+							style: 'standard'												
+						}
+					}"
+					textAlign="Right" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>Měna}"/>
+				<Input id="idInputWaers" width="50%" value="{polozkaEdit>/data/WAERS}" class="sapUiMediumMarginBottom" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+			</VBox>
+		-->
+		<buttons>
+			<Button text="{i18n>Potvrdit}" type="Accept" press=".onAcceptDialog" />
+			<Button text="{i18n>Zrušit}" type="Reject" press=".onCloseDialog" />
+		</buttons>
+	</Dialog>
+
+</core:FragmentDefinition>

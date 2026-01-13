@@ -1,0 +1,122 @@
+{
+    "DataList": [
+        { 
+            "FormGuid": "1",
+            "FormNumber": "2023000001",
+            "Crdat": "1.1.2023 12:33",
+            "Status": "01",
+            "StatusText": "Založeno",
+            "VyplatitPernr": "12345",
+            "VyplatitOsoba" : "jméno příjemce zálohy",
+            "Obdobi" : "období - povinné pro stálou PZ",
+            "Ucel": "účel - povinné pro mimoř. PZ",
+            "Wrbtr" : 500,
+            "Waers": "CZK",
+            "Prikazce": "12347",
+            "PrikazceOsoba": "Příkazce jméno",
+            "Spravce" : "12346",
+            "SpravceOsoba" : "Správce jméno",
+            "Parafista": "12345",
+            "ParafistaOsoba": "Parafista jméno",
+            "Pspnr": "CV8712211",
+            "PspnrText": "CV8712211 text",
+            "Kostl": "871",
+            "KostlText": "871 text",
+            "Fond": "1501",
+            "FondText": "1501 text",
+            
+            "CommentSet": [
+                {
+                    "Person": "Osoba jméno",
+                    "CrDate": "1.1.2023",
+                    "CrTime": "12:30:33",
+                    "Text": "Komentář"
+                }
+            ],
+
+            "WfWiid":"workflow id",
+            "ApproverSet": [
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 1,
+                    "IdPosText": "Žadatel",
+                    "Pernr": "12345",
+                    "Person": "Žadatel jméno",
+                    "Status": "9A",
+                    "StatusText": "Schváleno",
+                    "DateReceived": "1.1.2023",
+                    "TimeRecevied": "12:30:33",
+                    "DateFinish": "1.1.2023",
+                    "TimeFinish": "12:30:33"
+                },
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 2,
+                    "IdPosText": "Držitel provozní zálohy",
+                    "Pernr": "12346",
+                    "Person": "Držitel jméno",
+                    "Status": "9A",
+                    "StatusText": "Schváleno",
+                    "DateReceived": "1.1.2023",
+                    "TimeRecevied": "12:30:33",
+                    "DateFinish": "1.1.2023",
+                    "TimeFinish": "12:40:33"
+                },   
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 3,
+                    "IdPosText": "Parafista",
+                    "Pernr": "12347",
+                    "Person": "Parafista jméno",
+                    "Status": "01",
+                    "StatusText": "Iniciální",
+                    "DateReceived": "1.1.2023",
+                    "TimeRecevied": "12:40:33",
+                    "DateFinish": "",
+                    "TimeFinish": ""
+                },     
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 4,
+                    "IdPosText": "Příkazce",
+                    "Pernr": "12348",
+                    "Person": "Příkazce jméno",
+                    "Status": "01",
+                    "StatusText": "Iniciální",
+                    "DateReceived": "",
+                    "TimeRecevied": "",
+                    "DateFinish": "",
+                    "TimeFinish": ""
+                },  
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 5,
+                    "IdPosText": "Správce",
+                    "Pernr": "12349",
+                    "Person": "Správce jméno",
+                    "Status": "01",
+                    "StatusText": "Iniciální",
+                    "DateReceived": "",
+                    "TimeRecevied": "",
+                    "DateFinish": "",
+                    "TimeFinish": ""
+                },  
+                {
+                    "RoundNumber": 1,
+                    "OrderNumber": 6,
+                    "IdPosText": "Účetní",
+                    "Pernr": "12350",
+                    "Person": "Účetní jméno",
+                    "Status": "01",
+                    "StatusText": "Iniciální",
+                    "DateReceived": "",
+                    "TimeRecevied": "",
+                    "DateFinish": "",
+                    "TimeFinish": ""
+                }                                                                      
+            ]
+
+
+        }
+    ]
+}

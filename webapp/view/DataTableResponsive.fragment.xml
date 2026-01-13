@@ -1,0 +1,193 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:ui="sap.ui.unified">
+	<Table id="DokladyTable" items="{ path: 'Data>FormData/DOKLADY' }" mode="MultiSelect" sticky="HeaderToolbar,ColumnHeaders" itemPress="onDokladyTableItemPress">
+		<headerToolbar>
+			<OverflowToolbar>
+			<Title text="{i18n>Soupis_dokladů}"/>
+				<ToolbarSpacer />
+				<Button icon="sap-icon://add" press="onDokladyNewRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://edit" press="onDokladyEditRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://copy" press="onDokladyCopyRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://delete" press="onDokladyDeleteRow" enabled="{detailView>/editable}"/>
+				<Button
+					class="sapUiSmallMarginLeft"
+					tooltip="{i18n>Třídění}"
+					icon="sap-icon://sort"
+					press="onDokladyTableSort"/>				
+			</OverflowToolbar>
+		</headerToolbar>
+		
+		
+		<items>
+			<ColumnListItem type="Active" >
+				<cells>
+					<Label text="{path: 'Data>DATUM/value', type: 'sap.ui.model.type.Date', formatOptions: { style: 'short', pattern: 'dd.MM.yyyy' } }"/>
+					<Text text="{Data>CISLO_DOKLADU}" />
+					<ObjectNumber
+							number="{
+								parts:[{path:'Data>WRBTR'},{path:'Data>WAERS'}],
+								type: 'sap.ui.model.type.Currency',
+								formatOptions: {showMeasure: false}
+							}"
+							unit="{Data>WAERS}" />	
+					<Text text="{Data>TEXT_DOKLADU}" visible="false" />							
+					<HBox >						
+						<Text text="{Data>DOCFILE}" />
+						<core:Icon src="sap-icon://attachment" press="onCreateDocumentAttachment" visible="{= !${Data>FILE_ID} &amp;&amp; ${detailView>/editable}}" class="sapUiTinyMarginBegin" /> 
+						<core:Icon src="sap-icon://download" press="onDownloadDocumentAttachment" visible="{= !!${Data>FILE_ID}}" class="sapUiTinyMarginBegin"  />	
+						<core:Icon src="sap-icon://delete" press="onDeleteDocumentAttachment" visible="{= !!${Data>FILE_ID} &amp;&amp; ${detailView>/editable}}" class="sapUiTinyMarginBegin"  />	
+						
+						<!--
+						<ui:FileUploader id="fileUploaderFS" multiple="false" visible="{= !${Data>FILE_ID}}"  class="sapUiNoMarginTopBottom"  />
+						<Button icon="sap-icon://upload" press="onCreateDocumentAttachment" visible="{= !${Data>FILE_ID}}"  class="sapUiNoMarginTopBottom sapUiTinyMarginBegin"  />
+
+						-->
+					</HBox>						
+				</cells>
+			</ColumnListItem>
+		</items>
+		<columns>
+			<Column width="12em" id="dokladyTableColumn_DATUM" >
+				<header>
+					<Label text="{i18n>Datum}"/>
+				</header>			
+			</Column>
+			<Column id="dokladyTableColumn_CISLO_DOKLADU">
+				<header>
+					<Label text="{i18n>Číslo_dokladu}" />
+				</header>			
+			</Column>		
+			<Column hAlign="End" width="12em" id="dokladyTableColumn_WRBTR">
+				<header>
+					<Label text="{i18n>Částka}" />
+				</header>			
+			</Column>		
+			<Column id="dokladyTableColumn_TEXT_DOKLADU" visible="false">
+				<header>
+					<Label text="{i18n>Text}" />
+				</header>			
+			</Column>									
+			<Column > 
+				<header>
+					<Label text="{i18n>Příloha}" />
+				</header>			
+			</Column>			
+		
+		</columns>
+	</Table>
+	<Toolbar>
+		<ToolbarSpacer/>
+		<Label text="{i18n>Celkem}" />
+		<ObjectNumber
+			number="{path: 'Data>FormData/DOKLADY', formatter: '.formatter.calculateSum'}"
+			unit="{Data>FormData/WAERS}" />			
+	</Toolbar>
+	<MessageStrip type="Error" text="{Data>FormData/MESSAGE_WARNING_1}"></MessageStrip>
+
+	<Table id="PolozkyTable" items="{ path: 'Data>FormData/POLOZKY' }" mode="MultiSelect" sticky="HeaderToolbar,ColumnHeaders" itemPress="onDataTableItemPress">
+		<headerToolbar>
+			<OverflowToolbar>
+			<Title text="{i18n>Soupis_položek}"/>
+				<ToolbarSpacer />
+				<Button icon="sap-icon://add" press="onPolozkyNewRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://edit" press="onPolozkyEditRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://copy" press="onCopyRow" enabled="{detailView>/editable}"/>
+				<Button icon="sap-icon://delete" press="onDeleteRow" enabled="{detailView>/editable}"/>
+				<Button
+					class="sapUiSmallMarginLeft"
+					tooltip="{i18n>Třídění}"
+					icon="sap-icon://sort"
+					press="onPolozkyTableSort"/>				
+			</OverflowToolbar>
+		</headerToolbar>
+		
+		<items>
+			<ColumnListItem type="Active">
+				<cells>
+					<Label text="{Data>POLOZKA_TEXT}" design="Bold" wrapping="true" />
+					<ObjectNumber
+							number="{
+								parts:[{path:'Data>WRBTR'},{path:'Data>WAERS'}],
+								type: 'sap.ui.model.type.Currency',
+								formatOptions: {showMeasure: false}
+							}"
+							unit="{Data>WAERS}" />						
+					<Text text="{Data>PSPNR}" />
+					<Text text="{Data>KOSTL}"  />
+					<Text text="{Data>AUFNR}" />		
+					<Text text="{Data>TEXT_POLOZKY}" />			
+				</cells>
+			</ColumnListItem>
+		</items>
+		<columns>
+			<Column id="polozkyTableColumn_POLOZKA_TEXT">
+				<header>
+					<Label text="{i18n>Položka}"/>
+				</header>			
+			</Column>
+			<Column hAlign="End" width="12em" id="polozkyTableColumn_WRBTR" >
+				<header>
+					<Label text="{i18n>Částka}"/>
+				</header>			
+			</Column>			
+			<Column  id="polozkyTableColumn_PSPNR" >
+				<header>
+					<Label text="{i18n>Prvek}"/>
+				</header>			
+			</Column>			
+			<Column id="polozkyTableColumn_KOSTL" >
+				<header>
+					<Label text="{i18n>NS}"/>
+				</header>			
+			</Column>	
+			<Column  id="polozkyTableColumn_AUFNR" >
+				<header>
+					<Label text="Zdroj"/>
+				</header>			
+			</Column>	
+			<Column id="polozkyTableColumn_TEXT_POLOZKY">
+				<header>
+					<Label text="Text" />
+				</header>			
+			</Column>								
+		</columns>
+	</Table>
+<!--
+	<Table >	
+		<items>
+			<ColumnListItem type="Active">
+				<cells>
+					<Text />
+					<ObjectNumber
+							number="{
+								parts:[{path:'comp>DetailSum2'},{path:'comp>Mena'}],
+								type: 'sap.ui.model.type.Currency',
+								formatOptions: {showMeasure: false}
+							}"
+							unit="{comp>Mena}" />						
+					<Text />
+					<Text />
+					<Text />					
+				</cells>
+			</ColumnListItem>
+		</items>
+		<columns>
+			<Column >		
+			</Column>
+			<Column hAlign="End" width="12em" >		
+			</Column>			
+			<Column width="12em" >		
+			</Column>			
+			<Column width="12em" >		
+			</Column>	
+			<Column width="12em" >	
+			</Column>						
+		</columns>
+	</Table>	-->
+	<Toolbar>
+		<ToolbarSpacer/>
+		<Label text="{i18n>Celkem}" />
+		<ObjectNumber
+			number="{path: 'Data>FormData/POLOZKY', formatter: '.formatter.calculateSum'}"
+			unit="{Data>FormData/WAERS}" />				
+	</Toolbar>
+</core:FragmentDefinition>

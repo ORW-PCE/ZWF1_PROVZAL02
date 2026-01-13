@@ -1,0 +1,92 @@
+<mvc:View
+	controllerName="zwf1.prozal02.controller.Master"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:MasterPage
+		id="page"
+		title="{masterView>/title}"
+		navButtonPress="onNavBack"
+		showNavButton="true">
+		<semantic:subHeader>					
+			<Bar id="headerBar">
+				<contentMiddle>						
+					<SearchField
+						id="searchField"
+						showRefreshButton="{= !${device>/support/touch} }"
+						tooltip="{i18n>masterSearchTooltip}"
+						search="onSearch">
+					</SearchField>					
+				</contentMiddle>
+				<contentRight>
+					<Button icon="sap-icon://filter" press="onFilterPress"/>
+				</contentRight>
+			</Bar>
+		</semantic:subHeader>
+
+		<semantic:content>
+			<PullToRefresh
+				id="pullToRefresh"
+				visible="{device>/support/touch}"
+				refresh="onRefresh" />
+			<!-- For client side filtering add this to the items attribute: parameters: {operationMode: 'Client'}}" -->
+			<List
+				id="list"
+				items="{
+					path: 'Data>/Forms'
+				}"
+				busyIndicatorDelay="{masterView>/delay}"
+				noDataText="{masterView>/noDataText}"
+				mode="{= ${device>/system/phone} ? 'None' : 'SingleSelectMaster'}"
+				growing="true"
+				growingScrollToLoad="true"
+				updateFinished="onUpdateFinished"
+				sticky="HeaderToolbar"
+				selectionChange="onSelectionChange">
+				<infoToolbar>
+					<Toolbar
+						active="true"
+						id="filterBar"
+						visible="{masterView>/isFilterBarVisible}"
+						press="onOpenViewSettings">
+						<Title
+							id="filterBarLabel"
+							text="{masterView>/filterBarLabel}" />
+					</Toolbar>
+				</infoToolbar>
+				<items>
+					<ObjectListItem				
+						type="{= ${device>/system/phone} ? 'Active' : 'Inactive'}"
+						press="onSelectionChange"
+						intro="{i18n>Žadatel}: {Data>Title}"
+						title="{Data>FormNumber}">
+						<ObjectAttribute text="{Data>Attribute3}">
+						</ObjectAttribute>
+						<ObjectAttribute title="{i18n>Založeno}" 
+							text="{path: 'Data>CrDate', type: 'sap.ui.model.type.Date', formatOptions: { style: 'short', pattern: 'dd.MM.yyyy' } } {path: 'Data>CrTime', type: 'sap.ui.model.odata.type.Time', formatOptions: { pattern: 'HH:mm:ss' } }">
+						</ObjectAttribute>
+						<firstStatus>
+							<ObjectStatus
+								text="{Data>StatusText}"
+								state="{
+									path: 'Data>Status',
+									formatter: '.formatter.formStatus'
+								}" />
+						</firstStatus>						
+					</ObjectListItem>
+				</items>
+			</List>
+		</semantic:content>
+
+		<semantic:customFooterContent>
+			<Button icon="sap-icon://add" press="onCreateNewForm" visible="{masterView>/filters/myRequestsSelected}" />
+			<Button icon="sap-icon://copy" press="onCopyForm" visible="{masterView>/filters/myRequestsSelected}"/>
+			<Button icon="sap-icon://delete" press="onDeleteForm"  visible="{masterView>/filters/myRequestsSelected}"/>
+			<Button icon="sap-icon://sys-find" text="{i18n>Hledat}" press="onFilterPress"  visible="{masterView>/filters/myHistorySelected}"/>
+		</semantic:customFooterContent>	
+
+	</semantic:MasterPage>
+
+</mvc:View>

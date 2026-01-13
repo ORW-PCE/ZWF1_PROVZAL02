@@ -1,0 +1,45 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" 
+	xmlns:core="sap.ui.core">
+
+	<Dialog resizable="true" showHeader="true" title="{i18n>Doklad}">			
+			<VBox class="sapUiSmallMargin">
+				<Label text="{i18n>Datum}"/>
+				<DatePicker 												
+					dateValue="{dokladEdit>/data/DATUM/value}" 
+					maxDate="{dokladEdit>/maxDate}"
+					displayFormat="dd.MM.yyyy"
+					editable="true"/>	
+
+
+				<Label text="{i18n>Číslo_dokladu}" class="sapUiSmallMarginTop" visible="false"/>
+				<Input value="{dokladEdit>/data/CISLO_DOKLADU}" width="100%" editable="true" visible="false"/>	
+
+				<Label text="{i18n>Text}"/>
+				<TextArea value="{path: 'dokladEdit>/data/TEXT_DOKLADU'}" width="100%" maxLength="50"></TextArea>
+
+				<Label text="{i18n>Částka}"/>
+				<Input  																		
+					value="{
+						path:'dokladEdit>/data/WRBTR', 
+						type:'sap.ui.model.type.Float',
+						formatOptions: {
+							maxIntegerDigits: 11,
+							maxFractionDigits: 3,
+							minFractionDigits: 2,
+							parseAsString: true,
+							style: 'standard'												
+						}
+					}"
+					textAlign="Right" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+
+				<Label text="{i18n>Měna}"/>
+				<Input id="idInputWaers" width="50%" value="{dokladEdit>/data/WAERS}" class="sapUiMediumMarginBottom" showValueHelp="true" valueHelpRequest="onInputValueHelpRequest" change="onInputValueChanged" submit="onInputValueSubmit"/>	
+			</VBox>
+
+		<buttons>
+			<Button text="{i18n>Potvrdit}" type="Accept" press=".onAcceptDialog" />
+			<Button text="{i18n>Zrušit}" type="Reject" press=".onCloseDialog" />
+		</buttons>
+	</Dialog>
+
+</core:FragmentDefinition>

@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="onPolozkyTableSortDialogConfirm">
+		<sortItems>
+            <ViewSettingsItem text="{i18n>(nic)}" key="" selected="true" />
+			<ViewSettingsItem text="{i18n>Položka}" key="POLOZKA_TEXT"  />
+			<ViewSettingsItem text="{i18n>Částka}" key="WRBTR" />
+			<ViewSettingsItem text="{i18n>Prvek}" key="PSPNR" />
+			<ViewSettingsItem text="{i18n>NS}" key="KOSTL" />
+			<ViewSettingsItem text="{i18n>Zdroj}" key="AUFNR" />
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,1284 @@
+[
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "AUFNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "FOND",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "KOSTL",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PAYDATE",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PRCTR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PSPNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERSON')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PROPOSER_PERSON')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Alena Jelínková",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PROPOSER_PERSON",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "KOSTL",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='KOSTL_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Laboratoř výzkumu a managementu rizik",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "KOSTL_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PRCTR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PRCTR_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PRCTR_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "FOND",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FOND_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "FOND_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "AUFNR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PSPNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='POSID')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='POSID')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "POSID",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSP_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PSP_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PSP_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FAKULTA')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='FAKULTA')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: fakulta",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "FAKULTA",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='REKTORAT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='REKTORAT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: rektorat",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "REKTORAT",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-f8349a017844',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-f8349a017844",
+        "FieldName": "PAYDATE",
+        "FieldType": "D"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "AUFNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "FOND",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000119",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "KOSTL",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PAYDATE",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PRCTR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000010",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PSPNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000010",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERSON')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PROPOSER_PERSON')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Karel Pařízek",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PROPOSER_PERSON",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000119",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "KOSTL",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='KOSTL_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Katedra práva",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "KOSTL_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PRCTR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PRCTR_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PRCTR_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "FOND",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FOND_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "FOND_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "AUFNR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PSPNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='POSID')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='POSID')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "POSID",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSP_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PSP_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PSP_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FAKULTA')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='FAKULTA')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: fakulta",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "FAKULTA",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='REKTORAT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='REKTORAT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: rektorat",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "REKTORAT",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-fdab8c3c3846',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-fdab8c3c3846",
+        "FieldName": "PAYDATE",
+        "FieldType": "D"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "AUFNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "FOND",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "KOSTL",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PAYDATE",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PRCTR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PSPNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERSON')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PROPOSER_PERSON')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Alena Jelínková",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PROPOSER_PERSON",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "KOSTL",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='KOSTL_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Laboratoř výzkumu a managementu rizik",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "KOSTL_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PRCTR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PRCTR_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PRCTR_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "FOND",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FOND_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "FOND_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "AUFNR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PSPNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='POSID')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='POSID')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "POSID",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSP_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PSP_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PSP_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FAKULTA')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='FAKULTA')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: fakulta",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "FAKULTA",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='REKTORAT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='REKTORAT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: rektorat",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "REKTORAT",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88db-ff61a31e7847',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88db-ff61a31e7847",
+        "FieldName": "PAYDATE",
+        "FieldType": "D"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "AUFNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "1000",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "FOND",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "KOSTL",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PAYDATE",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PRCTR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PSPNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERSON')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PROPOSER_PERSON')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Alena Jelínková",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PROPOSER_PERSON",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "KOSTL",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='KOSTL_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Laboratoř výzkumu a managementu rizik",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "KOSTL_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PRCTR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PRCTR_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PRCTR_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "1000",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "FOND",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FOND_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "FOND_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "AUFNR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PSPNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='POSID')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='POSID')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "POSID",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSP_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PSP_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PSP_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FAKULTA')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='FAKULTA')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: fakulta",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "FAKULTA",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='REKTORAT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='REKTORAT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: rektorat",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "REKTORAT",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dc-128436c6384f',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88dc-128436c6384f",
+        "FieldName": "PAYDATE",
+        "FieldType": "D"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "AUFNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "1000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "FOND",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "KOSTL",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PAYDATE",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PRCTR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PSPNR",
+        "FieldType": ""
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PROPOSER_PERNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERSON')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PROPOSER_PERSON')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Alena Jelínková",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PROPOSER_PERSON",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "0000000023",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "KOSTL",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='KOSTL_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "Laboratoř výzkumu a managementu rizik",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "KOSTL_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PRCTR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PRCTR_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PRCTR_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "1000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "FOND",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FOND_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "FOND_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='AUFNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='AUFNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "AUFNR",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSPNR')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSPNR')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "00000000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PSPNR",
+        "FieldType": "N"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='POSID')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='POSID')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "POSID",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSP_TEXT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PSP_TEXT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PSP_TEXT",
+        "FieldType": "C"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FAKULTA')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='FAKULTA')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: fakulta",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "FAKULTA",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='REKTORAT')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='REKTORAT')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "todo: rektorat",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "REKTORAT",
+        "FieldType": "g"
+    },
+    {
+        "__metadata": {
+            "id": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PAYDATE')",
+            "uri": "http://sfd.vsb.cz:8000/sap/opu/odata/sap/ZWF1_FORM_APPROVE_SRV/FormDataSet(FormGuid=guid'005056af-2584-1eed-88dd-3270db90f8c9',FieldName='PAYDATE')",
+            "type": "ZWF1_FORM_APPROVE_SRV.FormData"
+        },
+        "FieldValue": "20220816",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PAYDATE",
+        "FieldType": "D"
+    },
+    {
+        "FieldValue": "00000005",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-PERNR[1]",
+        "FieldType": "S"
+    }, 
+    {
+        "FieldValue": "Alena Jelínková",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-PERSON[1]",
+        "FieldType": "S"
+    },      
+    {
+        "FieldValue": "801",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-KOSTL[1]",
+        "FieldType": "S"
+    },     
+    {
+        "FieldValue": "Duvod",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-REASON[1]",
+        "FieldType": "S"
+    },     
+    {
+        "FieldValue": "1000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-WRBTR[1]",
+        "FieldType": "P"
+    },       
+    {
+        "FieldValue": "CZK",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-WAERS[1]",
+        "FieldType": "S"
+    },
+    {
+        "FieldValue": "00012345",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-PERNR[2]",
+        "FieldType": "S"
+    }, 
+    {
+        "FieldValue": "Anton Anton",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-PERSON[2]",
+        "FieldType": "S"
+    },      
+    {
+        "FieldValue": "801",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-KOSTL[2]",
+        "FieldType": "S"
+    },     
+    {
+        "FieldValue": "Duvod2",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-REASON[2]",
+        "FieldType": "S"
+    },     
+    {
+        "FieldValue": "2000",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-WRBTR[2]",
+        "FieldType": "P"
+    },       
+    {
+        "FieldValue": "CZK",
+        "FormGuid": "005056af-2584-1eed-88dd-3270db90f8c9",
+        "FieldName": "PERSON_REWARDS-WAERS[2]",
+        "FieldType": "S"
+    }                         
+]

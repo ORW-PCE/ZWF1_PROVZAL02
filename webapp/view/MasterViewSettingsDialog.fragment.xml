@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		title="{i18n>Výběr}"
+		sortDescending="true"
+		confirm="onViewSettingsDialogConfirm"
+		selectedSortItem="sortItem3">
+		<sortItems>
+			<ViewSettingsItem text="{i18n>Datum_založení}" key="1" selected="true" />
+		</sortItems>  
+		<filterItems>
+			<ViewSettingsFilterItem id="statuslist" text="{i18n>Status}" key="3" items="{path: 'masterView>/filters/STATUS_LIST'}" >
+				<items>
+				<ViewSettingsItem text="{masterView>description}" key="{masterView>key}" selected="{masterView>selected}"/>
+				<!--	<ViewSettingsItem text="{i18n>Založeno}" key="3a" selected="{masterView>/filters/statusSelected/0}"  />
+					<ViewSettingsItem text="{i18n>V_běhu}" key="3b" selected="{masterView>/filters/statusSelected/1}" />
+					<ViewSettingsItem text="{i18n>Vyúčtování_provozní_zálohy}" key="3c" selected="{masterView>/filters/statusSelected/2}" />
+					<ViewSettingsItem text="{i18n>Zamítnuto}" key="3d" selected="{masterView>/filters/statusSelected/3}"  />
+					<ViewSettingsItem text="{i18n>Zpracováno}" key="3e" selected="{masterView>/filters/statusSelected/4}"  />
+					<ViewSettingsItem text="{i18n>Zrušeno}" key="3f" selected="{masterView>/filters/statusSelected/5}"  />
+
+					<ViewSettingsItem text="{i18n>Vyplacení_vyúčt_prov_zál}" key="3g" selected="{masterView>/filters/statusSelected/6}"  />
+					<ViewSettingsItem text="{i18n>Vráceno_žadateli}" key="3h" selected="{masterView>/filters/statusSelected/7}"  />
+					<ViewSettingsItem text="{i18n>Vráceno_do_schval_procesu}" key="3i" selected="{masterView>/filters/statusSelected/8}"  />
+					<ViewSettingsItem text="{i18n>Připomínkování}" key="3j" selected="{masterView>/filters/statusSelected/9}"  /> -->
+
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem text="{i18n>Období}" key="4" multiSelect="false" >
+				<items>
+					<ViewSettingsItem text="{i18n>Týden}" key="4a" selected="{masterView>/filters/periodSelected/0}" />
+					<ViewSettingsItem text="{i18n>Měsíc}" key="4b" selected="{masterView>/filters/periodSelected/1}" />
+					<ViewSettingsItem text="{i18n>3_měsíce}" key="4c" selected="{masterView>/filters/periodSelected/2}"  />
+					<ViewSettingsItem text="{i18n>Rok}" key="4d" selected="{masterView>/filters/periodSelected/3}"  />
+					<ViewSettingsItem text="{i18n>Vše}" key="4e" selected="{masterView>/filters/periodSelected/4}"  />
+				</items>
+			</ViewSettingsFilterItem>			
+		</filterItems>
+        <presetFilterItems>
+
+        </presetFilterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

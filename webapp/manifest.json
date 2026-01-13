@@ -1,0 +1,216 @@
+{
+    "_version": "1.9.0",
+    "sap.app": {
+        "id": "zwf1.prozal02",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "mainService": {
+                "uri": "/sap/opu/odata/sap/ZWF1_PROZAL_BIL_SRV?saml2=disabled&",
+                "type": "OData",                
+                "settings": {
+                    "odataVersion": "2.0",
+                    "localUri": "localService/metadata.xml"
+                }
+            },
+			"comp_dataSource": {
+				"uri": "model/Comp.json",
+				"type": "JSON"
+			}            
+        },
+        "sourceTemplate": {
+            "id": "sap.ui.ui5-template-plugin.2masterdetail",
+            "version": "1.52.7",
+            "toolsId": "104a7e16-22e9-48c4-95f9-19c63c37bcbf"
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "intentCreate": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "zwf1_pz01_app",
+                    "action": "create",
+                    "title": "ZWF1_PZ01",
+                    "icon": "sap-icon://account",
+                    "indicatorDataSource": {
+                        "dataSource": ""
+                    }
+                },
+                "intentApprove": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "zwf1_pz01_app",
+                    "action": "confirm",
+                    "title": "ZWF1_PZ01",
+                    "icon": "sap-icon://account",
+                    "indicatorDataSource": {
+                        "dataSource": ""
+                    }
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://detail-view",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "zwf1.prozal02.view.App",
+            "type": "XML",
+            "async": true,
+            "id": "app"
+        },
+        "dependencies": {
+            "minUI5Version": "1.42.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.ushell": {},
+                "sap.collaboration": {
+                    "lazy": true
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "config": {
+            "fullWidth": true
+        } ,       
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/custom.css"
+                }
+            ]
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "zwf1.prozal02.i18n.i18n"
+                }
+            },
+            "": {
+                "dataSource": "mainService",
+                "preload": true
+            },
+            "comp": {
+                "type": "sap.ui.model.json.JSONModel",
+				"dataSource": "comp_dataSource"
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "zwf1.prozal02.view",
+                "controlId": "idAppControl",
+                "controlAggregation": "detailPages",
+                "bypassed": {
+                    "target": [
+                        "master",
+                        "notFound"
+                    ]
+                },
+                "async": true
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "master",
+                    "target": [
+                        "object",
+                        "master"
+                    ]
+                },
+                {
+                    "pattern": "FormDetail/{objectId}:?query:",
+                    "name": "object",
+                    "target": [
+                        "master",
+                        "object"
+                    ]
+                },
+                {
+                    "pattern": "FormDisplay/{objectId}",
+                    "name": "objectDisplay",
+                    "target": [
+                        "master",
+                        "object"
+                    ]
+                },                             
+                {
+                    "pattern": "NotFound",
+                    "name": "detailObjectNotFound",
+                    "target": [
+                        "master",
+                        "detailObjectNotFound"
+                    ]
+                },
+                {
+                    "pattern": "NoObjects",
+                    "name": "detailNoObjectsAvailable",
+                    "target": [
+                        "master",
+                        "detailNoObjectsAvailable"
+                    ]
+                }                                     
+            ],
+            "targets": {
+                "master": {
+                    "viewName": "Master",
+                    "viewLevel": 1,
+                    "viewId": "master",
+                    "controlAggregation": "masterPages"
+                },
+                "object": {
+                    "viewName": "Detail",
+                    "viewId": "detail",
+                    "viewLevel": 2
+                },          
+                "detailObjectNotFound": {
+                    "viewName": "DetailObjectNotFound",
+                    "viewId": "detailObjectNotFound",
+                    "viewLevel": 2
+                },
+                "detailNoObjectsAvailable": {
+                    "viewName": "DetailNoObjectsAvailable",
+                    "viewId": "detailNoObjectsAvailable"
+                },
+                "notFound": {
+                    "viewName": "NotFound",
+                    "viewId": "notFound",
+                    "viewLevel": 2
+                },
+                "Data": {
+                    "viewType": "XML",
+                    "viewName": "Data"
+                }
+            }
+        }
+    }
+}
